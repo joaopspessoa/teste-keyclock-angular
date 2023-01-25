@@ -16,7 +16,7 @@ function iniciarKeycloack(keycloak: KeycloakService) {
       },
       initOptions: {
         pkceMethod: 'S256',
-        redirectUri: 'http://172.21.3.9:8090/', 
+        redirectUri: 'https://apiqualificaap.recife.pe.gov.br/', 
         checkLoginIframe: false,
         onLoad: 'login-required',
         flow: "standard"
