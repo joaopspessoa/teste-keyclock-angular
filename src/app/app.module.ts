@@ -16,7 +16,7 @@ function iniciarKeycloack(keycloak: KeycloakService) {
       },
       initOptions: {
         pkceMethod: 'S256',
-        redirectUri: 'http://172.21.3.9:8090/', 
+        redirectUri: 'http://172.21.3.9/', 
         checkLoginIframe: false,
         onLoad: 'login-required',
         flow: "standard"
